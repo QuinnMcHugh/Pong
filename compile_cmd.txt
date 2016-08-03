@@ -1,0 +1,7 @@
+g++ -c main.cc
+g++ main.o -o main -lsfml-graphics -lsfml-window -lsfml-system
+
+
+g++ -c main.cc Player.cc Ball.cc Game.cc
+g++ main.o Ball.o Game.o Player.o -o main -lsfml-graphics -lsfml-window -lsfml-system
+./main

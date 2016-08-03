@@ -1,0 +1,10 @@
+todo
+----
+// Maybe a linux issue? Test on rpi -make paddles move at same speed (bottom one is currently faster)
+DONE! -make paddle movement smoother, and more responsive at first
+DONE! -make ball bounce off paddles
+
+DONE! -compile game with makefile
+-put game code into lib and src files
+-compile sfml game on pi and test
+-begin to integrate the rpi matrix code
